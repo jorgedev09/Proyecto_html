@@ -1,0 +1,42 @@
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+nav {
+    background-color: #36342c8e;
+    width: 70%;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+body
+{
+place-items: left;
+background-color: aliceblue;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+color: rgb(45, 63, 80);
+
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input,select, textarea {
+    width: 100%;
+    padding: 10px 0 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

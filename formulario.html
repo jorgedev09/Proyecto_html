@@ -3,40 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<nav>
+    <ul>
+        <tr>
+        <a href="index.html">Inicio</a>
+        </tr>
+        <tr>
+        <a href="curriculo.html">Currículo</a>
+        </tr>
+        <tr>
+        <a href="formulario.html">Formulario</a>
+        </tr>
+    </ul>
+</nav>
+<link rel="stylesheet" href="form.css">
+
+ <title>Document</title>
+
+
 </head>
 <body>
     <h1> FORMULARIO</h1>
 
-<div>
-    
+
+
+
+<section>
+    <p>Por favor, complete el siguiente formulario para registrarse.</p>
+    <br>   
 <form action="#">
 <label for= ""> nombre:</label>
+<br>
 <input type="text">
 <br>
-<form action="#">
 <label for= ""> identificacion:</label>
+<br>
 <input type="number" id=""name = "" required>
 <br>
-
-<form action="#">
 <label for= ""> telefono:</label>
+<br>
 <input type="number">
 <br>
-<form action="#">
 <label for= ""> correo electronico:</label>
+<br>
 <input type="text">
 <br>
-<form action="#">
 <label for= ""> contraseña:</label>
-<input type="password" id=""name = "" required>
 <br>
-
-</div>    
+<input type="password" id=""name = "" required>  
 <br>
 <label for="">pasatiempos</label>
+<br>
 <textarea name="" id="" rows="10"></textarea>
-<div>
+<br>
 <h3><label for="">Cursos Disponibles</label></h3>
 <br>
 <input type="radio" id="ai" name="Cursos">
@@ -46,14 +66,12 @@
 <label for="web">Programacion</label>
 <br>
 <input type="radio" id="data" name="Cursos">
-<label for="data">Base de Datos</label> 
-
-
-</div>
+<label for="data">Base de Datos</label>
 <br>
 <input type="button" value="Guardar" onclick="alert('Formulario enviado')">
-
-
+<br>
+</form>
+</section>
 
 
 
