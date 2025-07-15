@@ -1,10 +1,24 @@
 body {
-    background-color: #fdeda7a9;
+    background-color: #fdeda7d7;
     margin: 0;
     color: rgb(45, 63, 80);
     font-family: Arial, sans-serif;
 }
-
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+nav {
+    background-color: #36342c8e;
+    width: 70%;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    margin: 5px auto;
+}
 section{
     margin: 20px auto;
     padding: 20px;
